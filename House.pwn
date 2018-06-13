@@ -12,7 +12,7 @@
 #include <streamer> //streamer - Y-LESS
 #include <sscanf2> //sscanf - Y_LESS, Emmet_ and maddinat0r
 #include <zones> //Zones - Cueball
-#include <izcmd> //Zeex
+#include <zcmd> //Zeex
 //======================================================
 
 //============={MySQL Defines}================
