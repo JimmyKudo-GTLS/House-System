@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS `houses` (
+  `ID` int(11) NOT NULL,
+  `Address` varchar(35) DEFAULT '0,Los Santos',
+  `Description` varchar(128) DEFAULT 'House',
+  `Owner` varchar(25) DEFAULT 'The State',
+  `Owned` tinyint(1) DEFAULT '0',
+  `Locked` tinyint(1) DEFAULT '0',
+  `Price` int(11) DEFAULT '0',
+  `InteriorE` int(11) DEFAULT '0',
+  `InteriorI` int(11) NOT NULL DEFAULT '0',
+  `ExteriorX` float DEFAULT '0',
+  `ExteriorY` float DEFAULT '0',
+  `ExteriorZ` float DEFAULT '0',
+  `InteriorX` float DEFAULT '0',
+  `InteriorY` float DEFAULT '0',
+  `InteriorZ` float DEFAULT '0',
+  `Custom_Interior` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`ID`)
+)
